@@ -1,0 +1,43 @@
+// HERO 
+.hero {
+    padding: 3em 0;
+}
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: $font-family-sans;
+
+    h1 {
+        font-size: 3em;
+        line-height: 1.5;
+    }
+    img {
+        width: 35%;
+        height: auto;
+    }
+}
+
+// SUB-HERO
+.sub-hero {
+    background-image: url(../img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30vh 1em;
+        h1 {
+            display: none;
+            font-size: 3em;
+            justify-content: center;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.39);
+        }
+}
+
+#sub-work {
+    p {
+        background-color: $color-link;
+        width: 100%;
+        margin:0;
+        color: transparent;
+    }
+}
