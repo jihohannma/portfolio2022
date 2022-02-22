@@ -5,6 +5,11 @@
     // padding: 0 1em;
 }
 
+.sub-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* MEDIA QUERIES */
 
 /* RESPONSIVE TYPOGRAPHY */
@@ -18,4 +23,17 @@ body { font-size: 87.5%; }
 
 @media (min-width: $breakpoint-large) {
     body { font-size: 112.5%; }
+}
+
+/* SUB-PAGE TEXT LAYOUT */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.one-third.column {
+    width: 25%;
+}
+.two-thirds.column {
+    width: 60%;
 }

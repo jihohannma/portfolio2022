@@ -34,10 +34,11 @@
 }
 
 #sub-work {
-    p {
+    .back {
         background-color: $color-link;
         width: 100%;
         margin:0;
         color: transparent;
+        font-size: 0.5em;
     }
 }

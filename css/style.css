@@ -78,6 +78,11 @@ a {
   margin: 0 auto;
 }
 
+.sub-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 /* MEDIA QUERIES */
 /* RESPONSIVE TYPOGRAPHY */
 body {
@@ -94,6 +99,25 @@ body {
     font-size: 112.5%;
   }
 }
+/* SUB-PAGE TEXT LAYOUT */
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.one-third.column {
+  width: 25%;
+}
+
+.two-thirds.column {
+  width: 60%;
+}
+
 .site-nav a {
   position: relative;
 }
@@ -160,8 +184,8 @@ body {
           animation-name: fade-out;
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -256,11 +280,12 @@ body {
   color: rgba(255, 255, 255, 0.39);
 }
 
-#sub-work p {
+#sub-work .back {
   background-color: #a3c919;
   width: 100%;
   margin: 0;
   color: transparent;
+  font-size: 0.5em;
 }
 
 /* RESPONSIVE IMAGES */
@@ -269,6 +294,7 @@ img {
   height: auto;
 }
 
+/* MAIN PAGE FOLDER WORK */
 #work {
   max-width: 1200px;
   margin: 0 auto;
@@ -282,42 +308,34 @@ img {
   padding: 0.5em 0;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
 }
-
 #work > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
-
 #work > *:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
-
 #work > *:nth-child(3) {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
 }
-
 #work > *:nth-child(4) {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
 }
-
 #work > *:nth-child(5) {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
 }
-
 #work > *:nth-child(6) {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
 }
-
 #work > *:nth-child(7) {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
 }
-
 #work > *:nth-child(8) {
   -ms-grid-row: 4;
   -ms-grid-column: 3;
@@ -388,4 +406,9 @@ img {
   top: 3.5%;
   left: 3%;
   border-radius: 10px;
+}
+
+/* SUB-PAGE */
+.sub-container {
+  padding: 3em 0;
 }
