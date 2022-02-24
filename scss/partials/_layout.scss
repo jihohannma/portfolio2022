@@ -29,7 +29,11 @@ body { font-size: 87.5%; }
 .row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+}
+.one-half.column {
+    width: 49%;
+    padding-top: 1em;
 }
 .one-third.column {
     width: 25%;

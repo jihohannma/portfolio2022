@@ -80,6 +80,12 @@ $gridgap: 2%;
         }
 }
 
+/* FOLDER COLORS */
+.folder-top.first,
+.folder-square.first {
+    background-color: $color-link;
+}
+
 /* SUB-PAGE */
 .sub-container {
     padding: 3em 0;
