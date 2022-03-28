@@ -11,7 +11,6 @@ $gridgap: 2%;
     grid-template-rows: repeat(4, 530px);
     grid-template-columns: 1fr 1fr;
     padding: 0.5em 0;
-    font-family: $font-family-sans;
 }
 
 .folder {
@@ -56,13 +55,13 @@ $gridgap: 2%;
             align-items: center;
             margin-top: 0.3em;
             h2 {
-                margin-top: 0.5em;
+                margin-top: 2.5%;
                 margin-left: 3%;
             }
             p {
                 margin-top: 0.5em;
                 margin-left: 4%;
-                color: rgba(0, 0, 0, 0.603);
+                color: rgb(255, 255, 255);
                 padding: 0.2em 0.5em;
                 background-color: $color-accent-with;
                 border-radius: 7px;
@@ -89,4 +88,10 @@ $gridgap: 2%;
 /* SUB-PAGE */
 .sub-container {
     padding: 3em 0;
+    font-family: $font-family-sans;
+
+    h3 {
+        font-weight: 400;
+        margin-top: 0.2em;
+    }
 }

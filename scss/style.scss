@@ -1,7 +1,8 @@
 /* GLOBAL RESETS */
 * { box-sizing: border-box;}
-html { background-color: rgb(255, 254, 242); }
+html { background-color: rgb(255, 255, 255); }
 body { margin:0; }
+#sub-work { background-color: rgba(255, 235, 193, 0.11);}
 
 //VARIABLES
 $color-text-body: rgba(0,0,0,.8);
@@ -9,11 +10,11 @@ $color-text-headings: rgba(0,0,0,1);
 $color-accent: rgb(252, 236, 165);
 $color-link: rgb(163, 201, 25);
 $color-link-darker: rgb(124, 150, 32);
-$color-accent-with: rgb(200, 233, 255);
+$color-accent-with: rgb(255, 186, 38);
 
 // $color-lightgrey: rgba(0,0,0,.5);
 
-$font-family-sans: Helvetica, Arial, Helvetica, sans-serif;
+$font-family-sans: 'arboria', Helvetica, sans-serif;
 $font-family-serif: Georgia, 'Times New Roman', Times, serif;
 
 // BREAKPOINTS

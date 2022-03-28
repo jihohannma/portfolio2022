@@ -1,6 +1,5 @@
 .site-header {
     display: block;
-    font-family: $font-family-sans;
 
         .container {
             display: flex;
@@ -8,6 +7,8 @@
         }
 
         .site-logo {
+            margin-top: 1.5em;
+
             h1 a {
                 color:rgb(0, 0, 0);
             }
@@ -16,7 +17,7 @@
         .site-nav {
             ul {
                 display: flex;
-                padding-top: 1em;
+                margin-top: 2em;
                 li {
                     list-style: none;
                     margin-left: 1.5em;
@@ -38,7 +39,7 @@
         .site-nav {
             ul {
                 display: flex;
-                padding-top: 1em;
+                margin-top: 2em;
                 padding: 0;
                 li {
                     list-style: none;
