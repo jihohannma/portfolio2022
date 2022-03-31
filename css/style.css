@@ -35,8 +35,11 @@ a {
 .site-header .site-logo {
   margin-top: 1.5em;
 }
-.site-header .site-logo h1 a {
-  color: black;
+.site-header .site-logo img {
+  width: 60%;
+}
+.site-header .site-logo img:hover {
+  opacity: 50%;
 }
 .site-header .site-nav ul {
   display: -webkit-box;
@@ -106,15 +109,10 @@ body {
     font-size: 112.5%;
   }
 }
-/* IMAGE */
-.sub-container img {
-  padding-top: 1.5em;
-}
-
+/* VIDEO */
 video {
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 1.5em;
 }
 
 /* SUB-PAGE TEXT LAYOUT */
@@ -125,20 +123,21 @@ video {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+}
+
+.row-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1em;
 }
 
 .one-half.column {
   width: 49%;
-}
-
-.one-half.columncenter {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.one-half.columncenter img {
-  max-width: 50%;
 }
 
 .one-third.column {
@@ -312,7 +311,7 @@ video {
 .progress-bar__percent {
   display: inline-block;
   position: relative;
-  bottom: 1.25em;
+  bottom: 1.15em;
   text-align: center;
   width: 16px;
   height: 16px;
@@ -354,8 +353,55 @@ video {
   max-width: 50%;
 }
 
+.about-hero {
+  margin-bottom: 8em;
+}
+.about-hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "arboria", Helvetica, sans-serif;
+}
+
+.about-right {
+  margin-top: 4em;
+  margin-left: 3em;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-right h1 {
+  font-size: 2em;
+  margin: 0;
+}
+.about-right h2 {
+  margin: 0;
+  color: #ffba26;
+}
+.about-right h3 {
+  font-weight: 300;
+}
+.about-right ul {
+  list-style: none;
+}
+.about-right ul hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
 .sub-hero .annualreport {
-  background-image: url(../img/annualreport/cover.jpg);
+  background-image: url(../img/holidaycard/cover.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -418,7 +464,7 @@ video {
   padding: 30vh 1em;
 }
 .sub-hero .untact {
-  background-image: url(../img/untact/Untact1.jpg);
+  background-image: url(../img/untact/logo-01.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -493,14 +539,14 @@ video {
   font-size: 0.5em;
 }
 #sub-work .yours-back {
-  background-color: lightseagreen;
+  background-color: lightcoral;
   width: 100%;
   margin: 0;
   color: transparent;
   font-size: 0.5em;
 }
 #sub-work .untact-back {
-  background-color: lightcoral;
+  background-color: lightseagreen;
   width: 100%;
   margin: 0;
   color: transparent;
@@ -560,7 +606,7 @@ img {
 }
 
 .folder {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   aspect-ratio: 1;
   overflow: hidden;
@@ -626,12 +672,6 @@ img {
   border-radius: 10px;
 }
 
-/* FOLDER COLORS */
-.folder-top.first,
-.folder-square.first {
-  background-color: #a3c919;
-}
-
 /* SUB-PAGE */
 .sub-container {
   padding: 3em 0;
@@ -640,6 +680,71 @@ img {
 .sub-container h3 {
   font-weight: 400;
   margin-top: 0.2em;
+}
+.sub-container p {
+  margin-bottom: 4em;
+}
+.sub-container .button {
+  margin-top: 3em;
+}
+.sub-container .button h3 {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-weight: 700;
+  color: white;
+  background-color: #ffba26;
+  text-align: center;
+}
+
+/* FOLDER COLORS */
+.folder-top.first,
+.folder-square.first {
+  background-color: #a3c919;
+}
+
+.folder-top.second,
+.folder-square.second {
+  background-color: pink;
+}
+
+.folder-top.third,
+.folder-square.third {
+  background-color: orange;
+}
+
+.folder-top.fourth,
+.folder-square.fourth {
+  background-color: skyblue;
+}
+
+.folder-top.fifth,
+.folder-square.fifth {
+  background-color: darkblue;
+}
+
+.folder-top.sixth,
+.folder-square.sixth {
+  background-color: brown;
+}
+
+.folder-top.seventh,
+.folder-square.seventh {
+  background-color: green;
+}
+
+.folder-top.eighth,
+.folder-square.eighth {
+  background-color: lightsalmon;
+}
+
+.folder-top.ninth,
+.folder-square.ninth {
+  background-color: lightseagreen;
+}
+
+.folder-top.tenth,
+.folder-square.tenth {
+  background-color: lightcoral;
 }
 
 h1 {

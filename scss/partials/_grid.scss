@@ -6,6 +6,7 @@ $gridgap: 2%;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
+    // flex-wrap: wrap;
     // grid-row-gap: -1em;
     grid-column-gap: 2em;
     grid-template-rows: repeat(4, 530px);
@@ -14,7 +15,7 @@ $gridgap: 2%;
 }
 
 .folder {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     aspect-ratio: 1;
     overflow: hidden;
@@ -79,12 +80,6 @@ $gridgap: 2%;
         }
 }
 
-/* FOLDER COLORS */
-.folder-top.first,
-.folder-square.first {
-    background-color: $color-link;
-}
-
 /* SUB-PAGE */
 .sub-container {
     padding: 3em 0;
@@ -94,4 +89,70 @@ $gridgap: 2%;
         font-weight: 400;
         margin-top: 0.2em;
     }
+    p {
+        margin-bottom: 4em;
+    }
+    .button {
+        margin-top: 3em;
+        h3 {
+            display: inline-block;
+            padding: 0.5em 1em;
+            font-weight: 700;
+            color: white;
+            background-color: $color-accent-with;
+            text-align: center;          
+        }
+    }
+}
+
+
+/* FOLDER COLORS */
+.folder-top.first,
+.folder-square.first {
+    background-color: $color-link;
+}
+
+.folder-top.second,
+.folder-square.second {
+    background-color: pink;
+}
+
+.folder-top.third,
+.folder-square.third {
+    background-color: orange;
+}
+
+.folder-top.fourth,
+.folder-square.fourth {
+    background-color: skyblue;
+}
+
+.folder-top.fifth,
+.folder-square.fifth {
+    background-color: darkblue;
+}
+
+.folder-top.sixth,
+.folder-square.sixth {
+    background-color: brown;
+}
+
+.folder-top.seventh,
+.folder-square.seventh {
+    background-color: green;
+}
+
+.folder-top.eighth,
+.folder-square.eighth {
+    background-color: lightsalmon;
+}
+
+.folder-top.ninth,
+.folder-square.ninth {
+    background-color: lightseagreen;
+}
+
+.folder-top.tenth,
+.folder-square.tenth {
+    background-color: lightcoral;
 }

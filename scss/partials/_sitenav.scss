@@ -9,8 +9,12 @@
         .site-logo {
             margin-top: 1.5em;
 
-            h1 a {
-                color:rgb(0, 0, 0);
+            img {
+                width: 60%;
+            }
+
+            img:hover {
+                opacity: 50%;
             }
         }
 

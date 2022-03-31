@@ -25,31 +25,25 @@ body { font-size: 87.5%; }
     body { font-size: 112.5%; }
 }
 
-/* IMAGE */
-.sub-container img {
-    padding-top: 1.5em;
-}
-
+/* VIDEO */
 video {
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 1.5em;
 }
 
 /* SUB-PAGE TEXT LAYOUT */
 .row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+}
+.row-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
 }
 .one-half.column {
     width: 49%;
-}
-.one-half.columncenter {
-    justify-content: center;
-    img {
-        max-width: 50%;
-    }
 }
 .one-third.column {
     width: 32%;
