@@ -337,17 +337,21 @@ video {
   font-family: "arboria", Helvetica, sans-serif;
 }
 .hero .container .hero-left {
-  margin-top: 1em;
+  margin-top: 2.5em;
 }
 .hero .container .hero-left h1 {
   font-size: 4em;
-  line-height: 1.3;
+  line-height: 1.1;
   text-align: left;
 }
 .hero .container .hero-left h2 {
-  font-size: 2em;
-  line-height: 1.5;
+  font-size: 1.8em;
+  line-height: 1.3;
+  font-weight: 300;
   margin: 0;
+}
+.hero .container .hero-left .color {
+  color: #ffba26;
 }
 .hero .container .hero-right {
   max-width: 50%;
@@ -605,6 +609,30 @@ img {
   -ms-grid-column: 3;
 }
 
+@media (max-width: 768px) {
+  #work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #work .folder-text {
+    margin-top: 0.5em;
+  }
+  #work h2 {
+    font-size: 2em;
+  }
+  #work p {
+    font-size: 1em;
+  }
+}
+@media (max-width: 1245px) {
+  body {
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+  }
+}
 .folder {
   max-width: 100%;
   height: auto;
@@ -655,12 +683,14 @@ img {
   margin-left: 3%;
 }
 .folder .folder-text p {
-  margin-top: 0.5em;
+  font-size: 0.8em;
+  margin-top: 0.8em;
   margin-left: 4%;
-  color: white;
-  padding: 0.2em 0.5em;
-  background-color: #ffba26;
-  border-radius: 7px;
+  color: #464646;
+  padding: 0.2em 0.5em 0.3em 0.5em;
+  background-color: #dfecf1;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 .folder .folder-white {
   background: white;
@@ -694,6 +724,9 @@ img {
   color: white;
   background-color: #ffba26;
   text-align: center;
+}
+.sub-container .button:hover h3 {
+  background-color: lightgreen;
 }
 
 /* FOLDER COLORS */

@@ -14,6 +14,29 @@ $gridgap: 2%;
     padding: 0.5em 0;
 }
 
+@media (max-width: $breakpoint-small) {
+    #work {
+        display: flex;
+        flex-wrap: wrap;
+        .folder-text {
+            margin-top: 0.5em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        p {
+            font-size: 1em;
+        }
+    }
+}
+
+@media (max-width: 1245px) {
+    body {
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+    }
+}
+
 .folder {
     max-width: 100%;
     height: auto;
@@ -60,12 +83,14 @@ $gridgap: 2%;
                 margin-left: 3%;
             }
             p {
-                margin-top: 0.5em;
+                font-size: 0.8em;
+                margin-top: 0.8em;
                 margin-left: 4%;
-                color: rgb(255, 255, 255);
-                padding: 0.2em 0.5em;
-                background-color: $color-accent-with;
-                border-radius: 7px;
+                color: rgb(70, 70, 70);
+                padding: 0.2em 0.5em 0.3em 0.5em;
+                background-color: rgb(223, 236, 241);
+                border-radius: 5px;
+                text-transform: uppercase;
             }
         }
 
@@ -101,6 +126,11 @@ $gridgap: 2%;
             color: white;
             background-color: $color-accent-with;
             text-align: center;          
+        }
+    }
+    .button:hover {
+        h3 {
+            background-color: lightgreen;
         }
     }
 }
