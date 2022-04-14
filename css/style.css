@@ -31,9 +31,10 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 1em;
 }
 .site-header .site-logo {
-  margin-top: 1.5em;
+  margin-top: 1.2em;
 }
 .site-header .site-logo img {
   width: 60%;
@@ -304,7 +305,7 @@ video {
       -ms-grid-row-align: center;
       align-self: center;
   padding: 1em 0.5em;
-  border: 1px solid slategray;
+  border: 1px solid rgba(0, 100, 0, 0.342);
   border-radius: 24px;
   text-align: left;
 }
@@ -409,81 +410,71 @@ video {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero .jammy {
   background-image: url(../img/jammy/Jammy.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero .holidaycard {
   background-image: url(../img/holidaycard/cover.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero .leahi {
   background-image: url(../../img/leahicover/cover1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero .olympic {
   background-image: url(../img/olympic/cover.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero .petmily {
   background-image: url(../img/petmily/cover.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero .subway {
   background-image: url(../img/subway/Mockup1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero .tourism {
   background-image: url(../img/tourismlogo/nathan-riley-k-7nACY1gC0-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero .yours {
   background-image: url(../img/yours/Logo-01.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero .untact {
   background-image: url(../img/untact/logo-01.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30vh 1em;
 }
 .sub-hero h1 {
-  display: none;
-  font-size: 3em;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: rgba(255, 255, 255, 0.39);
+  font-family: "arboria", Helvetica, sans-serif;
+  font-size: 10em;
+  position: relative;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 6px #4b4b4b71;
+  z-index: 2;
+  padding: 20vh;
+  background-color: rgba(0, 0, 0, 0.288);
 }
 
 #sub-work .annualreport-back {
@@ -710,6 +701,7 @@ img {
 .sub-container h3 {
   font-weight: 400;
   margin-top: 0.2em;
+  margin-bottom: 0.5em;
 }
 .sub-container p {
   margin-bottom: 4em;

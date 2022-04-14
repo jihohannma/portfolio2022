@@ -74,11 +74,12 @@
 // SUB-HERO
 .sub-hero {
     .annualreport {
-    background-image: url(../img/holidaycard/cover.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 30vh 1em;
+        background-image: url(../img/holidaycard/cover.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        // padding: 20vh 1em;
+        // filter: blur(8px);
     }
 
     .jammy {
@@ -86,7 +87,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30vh 1em;
+        // padding: 30vh 1em;
     }
 
     .holidaycard {
@@ -94,7 +95,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30vh 1em;
+        // padding: 30vh 1em;
     }
 
     .leahi {
@@ -102,7 +103,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30vh 1em;
+        // padding: 30vh 1em;
     }
 
     .olympic {
@@ -110,7 +111,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30vh 1em;
+        // padding: 30vh 1em;
     }
 
     .petmily {
@@ -118,7 +119,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30vh 1em;
+        // padding: 30vh 1em;
     }
 
     .subway {
@@ -126,7 +127,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30vh 1em;
+        // padding: 30vh 1em;
     }
 
     .tourism {
@@ -134,7 +135,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30vh 1em;
+        // padding: 30vh 1em;
     }
 
     .yours {
@@ -142,7 +143,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30vh 1em;
+        // padding: 30vh 1em;
     }
 
     .untact {
@@ -150,17 +151,23 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30vh 1em;
+        // padding: 30vh 1em;
     }
 
     h1 {
-        display: none;
-        font-size: 3em;
-        justify-content: center;
-        align-items: center;
-        color: rgba(255, 255, 255, 0.39);
+        // display: none;
+        font-family: $font-family-sans;
+        font-size: 10em;
+        position: relative;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 4px 4px 6px #4b4b4b71;
+        z-index: 2;
+        padding: 20vh;
+        background-color: rgba(0, 0, 0, 0.288);
     }
 }
+
 
 #sub-work {
     .annualreport-back {
