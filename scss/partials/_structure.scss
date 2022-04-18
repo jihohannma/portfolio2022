@@ -161,7 +161,7 @@
         position: relative;
         text-align: center;
         color: rgb(255, 255, 255);
-        text-shadow: 4px 4px 6px #4b4b4b71;
+        // text-shadow: 4px 4px 6px #4b4b4b71;
         z-index: 2;
         padding: 20vh;
         background-color: rgba(0, 0, 0, 0.288);
@@ -171,7 +171,7 @@
 
 #sub-work {
     .annualreport-back {
-        background-color: $color-link;
+        background-color: $color-annualreport;
         width: 100%;
         margin:0;
         color: transparent;
@@ -179,7 +179,7 @@
     }
 
     .jammy-back {
-        background-color: pink;
+        background-color: $color-jammy;
         width: 100%;
         margin:0;
         color: transparent;
@@ -187,7 +187,7 @@
     }
 
     .holidaycard-back {
-        background-color: orange;
+        background-color: $color-holidaycard;
         width: 100%;
         margin:0;
         color: transparent;
@@ -195,7 +195,7 @@
     }
 
     .leahi-back {
-        background-color: skyblue;
+        background-color: $color-leahi;
         width: 100%;
         margin:0;
         color: transparent;
@@ -203,7 +203,7 @@
     }
 
     .olympic-back {
-        background-color: darkblue;
+        background-color: $color-olympic;
         width: 100%;
         margin:0;
         color: transparent;
@@ -211,7 +211,7 @@
     }
 
     .petmily-back {
-        background-color: brown;
+        background-color: $color-petmily;
         width: 100%;
         margin:0;
         color: transparent;
@@ -219,7 +219,7 @@
     }
 
     .subway-back {
-        background-color: green;
+        background-color: $color-subway;
         width: 100%;
         margin:0;
         color: transparent;
@@ -227,7 +227,7 @@
     }
 
     .tourism-back {
-        background-color: lightsalmon;
+        background-color: $color-venice;
         width: 100%;
         margin:0;
         color: transparent;
@@ -235,7 +235,7 @@
     }
 
     .yours-back {
-        background-color: lightcoral;
+        background-color: $color-yours;
         width: 100%;
         margin:0;
         color: transparent;
@@ -243,7 +243,7 @@
     }
 
     .untact-back {
-        background-color: lightseagreen;
+        background-color: $color-untact;
         width: 100%;
         margin:0;
         color: transparent;

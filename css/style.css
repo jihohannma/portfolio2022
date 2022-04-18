@@ -16,6 +16,7 @@ body {
   background-color: rgba(255, 235, 193, 0.11);
 }
 
+/* COLOR FOR FOLDERS */
 a {
   text-decoration: none;
   cursor: pointer;
@@ -38,9 +39,6 @@ a {
 }
 .site-header .site-logo img {
   width: 60%;
-}
-.site-header .site-logo img:hover {
-  opacity: 50%;
 }
 .site-header .site-nav ul {
   display: -webkit-box;
@@ -235,6 +233,38 @@ video {
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
+.site-logo a {
+  position: relative;
+}
+.site-logo a::before {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+.site-logo a:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+.site-logo a::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 70% 0 0 0;
+  background: #ffba26;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
 .float-on-hover {
   -webkit-transform: perspective(1px) translateZ(0);
           transform: perspective(1px) translateZ(0);
@@ -269,8 +299,8 @@ video {
           animation-name: fade-out;
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -471,28 +501,27 @@ video {
   position: relative;
   text-align: center;
   color: white;
-  text-shadow: 4px 4px 6px #4b4b4b71;
   z-index: 2;
   padding: 20vh;
   background-color: rgba(0, 0, 0, 0.288);
 }
 
 #sub-work .annualreport-back {
-  background-color: #a3c919;
+  background-color: #df9e61;
   width: 100%;
   margin: 0;
   color: transparent;
   font-size: 0.5em;
 }
 #sub-work .jammy-back {
-  background-color: pink;
+  background-color: #FFC2B4;
   width: 100%;
   margin: 0;
   color: transparent;
   font-size: 0.5em;
 }
 #sub-work .holidaycard-back {
-  background-color: orange;
+  background-color: #ffba24;
   width: 100%;
   margin: 0;
   color: transparent;
@@ -506,42 +535,42 @@ video {
   font-size: 0.5em;
 }
 #sub-work .olympic-back {
-  background-color: darkblue;
+  background-color: #5197ff;
   width: 100%;
   margin: 0;
   color: transparent;
   font-size: 0.5em;
 }
 #sub-work .petmily-back {
-  background-color: brown;
+  background-color: #F8E16C;
   width: 100%;
   margin: 0;
   color: transparent;
   font-size: 0.5em;
 }
 #sub-work .subway-back {
-  background-color: green;
+  background-color: #8dd68d;
   width: 100%;
   margin: 0;
   color: transparent;
   font-size: 0.5em;
 }
 #sub-work .tourism-back {
-  background-color: lightsalmon;
+  background-color: #FB8F67;
   width: 100%;
   margin: 0;
   color: transparent;
   font-size: 0.5em;
 }
 #sub-work .yours-back {
-  background-color: lightcoral;
+  background-color: #AA7DCE;
   width: 100%;
   margin: 0;
   color: transparent;
   font-size: 0.5em;
 }
 #sub-work .untact-back {
-  background-color: lightseagreen;
+  background-color: #BBF4DA;
   width: 100%;
   margin: 0;
   color: transparent;
@@ -724,17 +753,17 @@ img {
 /* FOLDER COLORS */
 .folder-top.first,
 .folder-square.first {
-  background-color: #a3c919;
+  background-color: #df9e61;
 }
 
 .folder-top.second,
 .folder-square.second {
-  background-color: pink;
+  background-color: #FFC2B4;
 }
 
 .folder-top.third,
 .folder-square.third {
-  background-color: orange;
+  background-color: #ffba24;
 }
 
 .folder-top.fourth,
@@ -744,32 +773,32 @@ img {
 
 .folder-top.fifth,
 .folder-square.fifth {
-  background-color: darkblue;
+  background-color: #5197ff;
 }
 
 .folder-top.sixth,
 .folder-square.sixth {
-  background-color: brown;
+  background-color: #F8E16C;
 }
 
 .folder-top.seventh,
 .folder-square.seventh {
-  background-color: green;
+  background-color: #8dd68d;
 }
 
 .folder-top.eighth,
 .folder-square.eighth {
-  background-color: lightsalmon;
+  background-color: #FB8F67;
 }
 
 .folder-top.ninth,
 .folder-square.ninth {
-  background-color: lightseagreen;
+  background-color: #BBF4DA;
 }
 
 .folder-top.tenth,
 .folder-square.tenth {
-  background-color: lightcoral;
+  background-color: #AA7DCE;
 }
 
 h1 {

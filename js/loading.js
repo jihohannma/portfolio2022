@@ -15,4 +15,4 @@ var appendPercent = function () {
   }
 };
 
-setInterval(appendPercent, 250);
+setInterval(appendPercent, 100);
