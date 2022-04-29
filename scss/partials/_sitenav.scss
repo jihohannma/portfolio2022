@@ -30,13 +30,32 @@
         }
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    max-width: 1800px;
+    background-color: $color-accent-with;
+}
+
 .site-footer {
     display: block;
-    margin-bottom: 1em;
+    // position: fixed;
+    // bottom: 0;
+    // width: 100%;
+    padding: 2em;
+    margin-bottom: 2em;
+    // background-color: $color-accent-with;
+
         .container {
             display: flex;
             justify-content: center;
         }
+
+        img {
+            justify-content: center;
+            max-width: 100%;
+        }
+
         .site-nav {
             ul {
                 display: flex;
@@ -45,6 +64,8 @@
                 li {
                     list-style: none;
                     margin: 0 1.5em;
+                    font-size: 3em;
+                    font-weight: bold;
                     a {
                         color: rgb(0, 0, 0);
                     }

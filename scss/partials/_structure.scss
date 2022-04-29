@@ -83,7 +83,7 @@
     }
 
     .jammy {
-        background-image: url(../img/jammy/Jammy.jpg);
+        background-image: url(../img/jammy/hero.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -107,7 +107,7 @@
     }
 
     .olympic {
-        background-image: url(../img/olympic/cover.jpg);
+        background-image: url(../img/olympic/skijump.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -123,7 +123,7 @@
     }
 
     .subway {
-        background-image: url(../img/subway/Mockup1.jpg);
+        background-image: url(../img/subway/hero.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -139,7 +139,7 @@
     }
 
     .yours {
-        background-image: url(../img/yours/Logo-01.jpg);
+        background-image: url(../img/yours/hero1.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -147,7 +147,7 @@
     }
 
     .untact {
-        background-image: url(../img/untact/logo-01.jpg);
+        background-image: url(../img/untact/hero.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -158,13 +158,14 @@
         // display: none;
         font-family: $font-family-sans;
         font-size: 10em;
+        line-height: 1;
         position: relative;
         text-align: center;
         color: rgb(255, 255, 255);
         // text-shadow: 4px 4px 6px #4b4b4b71;
         z-index: 2;
         padding: 20vh;
-        background-color: rgba(0, 0, 0, 0.288);
+        background-color: rgba(0, 0, 0, 0.377);
     }
 }
 

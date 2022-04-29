@@ -12,10 +12,6 @@ body {
   margin: 0;
 }
 
-#sub-work {
-  background-color: rgba(255, 235, 193, 0.11);
-}
-
 /* COLOR FOR FOLDERS */
 a {
   text-decoration: none;
@@ -54,9 +50,17 @@ a {
   color: black;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  max-width: 1800px;
+  background-color: #ffba26;
+}
+
 .site-footer {
   display: block;
-  margin-bottom: 1em;
+  padding: 2em;
+  margin-bottom: 2em;
 }
 .site-footer .container {
   display: -webkit-box;
@@ -65,6 +69,12 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.site-footer img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
 }
 .site-footer .site-nav ul {
   display: -webkit-box;
@@ -76,6 +86,8 @@ a {
 .site-footer .site-nav ul li {
   list-style: none;
   margin: 0 1.5em;
+  font-size: 3em;
+  font-weight: bold;
 }
 .site-footer .site-nav ul li a {
   color: black;
@@ -152,7 +164,7 @@ video {
 }
 
 .three-fourth.column {
-  width: 70%;
+  width: 66%;
 }
 
 /* FOR UNTACT GRID */
@@ -442,7 +454,7 @@ video {
   background-repeat: no-repeat;
 }
 .sub-hero .jammy {
-  background-image: url(../img/jammy/Jammy.jpg);
+  background-image: url(../img/jammy/hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -460,7 +472,7 @@ video {
   background-repeat: no-repeat;
 }
 .sub-hero .olympic {
-  background-image: url(../img/olympic/cover.jpg);
+  background-image: url(../img/olympic/skijump.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -472,7 +484,7 @@ video {
   background-repeat: no-repeat;
 }
 .sub-hero .subway {
-  background-image: url(../img/subway/Mockup1.jpg);
+  background-image: url(../img/subway/hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -484,13 +496,13 @@ video {
   background-repeat: no-repeat;
 }
 .sub-hero .yours {
-  background-image: url(../img/yours/Logo-01.jpg);
+  background-image: url(../img/yours/hero1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .sub-hero .untact {
-  background-image: url(../img/untact/logo-01.jpg);
+  background-image: url(../img/untact/hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -498,12 +510,13 @@ video {
 .sub-hero h1 {
   font-family: "arboria", Helvetica, sans-serif;
   font-size: 10em;
+  line-height: 1;
   position: relative;
   text-align: center;
   color: white;
   z-index: 2;
   padding: 20vh;
-  background-color: rgba(0, 0, 0, 0.288);
+  background-color: rgba(0, 0, 0, 0.377);
 }
 
 #sub-work .annualreport-back {
@@ -727,13 +740,23 @@ img {
   padding: 3em 0;
   font-family: "arboria", Helvetica, sans-serif;
 }
+.sub-container img {
+  -webkit-filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.055));
+          filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.055));
+}
 .sub-container h3 {
   font-weight: 400;
-  margin-top: 0.2em;
+  margin-top: 0.1em;
+}
+.sub-container h2 {
+  font-weight: 500;
+  font-size: 1.2em;
   margin-bottom: 0.5em;
+  margin-top: 1.5em;
 }
 .sub-container p {
   margin-bottom: 4em;
+  font-weight: 100;
 }
 .sub-container .button {
   margin-top: 3em;
