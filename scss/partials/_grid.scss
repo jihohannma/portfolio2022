@@ -126,7 +126,7 @@ $gridgap: 2%;
         margin-top: 1.5em;
     }
     p {
-        margin-bottom: 4em;
+        margin-bottom: 2em;
         font-weight: 100;
     }
     .button {
@@ -143,6 +143,31 @@ $gridgap: 2%;
     .button:hover {
         h3 {
             background-color: lightgreen;
+        }
+    }
+    .project-button {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+
+            li {
+                font-size: 1.2em;
+                // font-weight: 700;
+                text-decoration: none;
+                background-color: white;
+                padding: 0.5em 1em 0.6em 1em;
+                border-radius: 50px;
+                border: $color-petmily 2px solid;
+                a {
+                    color: black;
+                }
+            }
+            li:hover {
+                background-color: $color-petmily;
+            }
+            
         }
     }
 }

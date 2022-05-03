@@ -54,7 +54,87 @@ hr {
   border: 0;
   height: 1px;
   max-width: 1800px;
-  background-color: #ffba26;
+  background-color: rgba(0, 0, 0, 0.192);
+}
+
+.menu-container {
+  display: block;
+  position: relative;
+  max-width: 1000px;
+  background-color: white;
+  margin: 5% auto 0;
+  margin-bottom: 6em;
+  padding: 0;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 0 0 1px white;
+          box-shadow: inset 0 0 1px white;
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.055);
+          box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.055);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0 2em 0 2em;
+}
+
+.nav-petmily {
+  background-color: #F8E16C;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-yours {
+  background-color: #AA7DCE;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-annualreport {
+  background-color: #df9e61;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-leahi {
+  background-color: skyblue;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-olympic {
+  background-color: #5197ff;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-untact {
+  background-color: #BBF4DA;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-venice {
+  background-color: #FB8F67;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-subway {
+  background-color: #8dd68d;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-jammy {
+  background-color: #FFC2B4;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-holidaycard {
+  background-color: #ffba24;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
 }
 
 .site-footer {
@@ -755,7 +835,7 @@ img {
   margin-top: 1.5em;
 }
 .sub-container p {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   font-weight: 100;
 }
 .sub-container .button {
@@ -771,6 +851,30 @@ img {
 }
 .sub-container .button:hover h3 {
   background-color: lightgreen;
+}
+.sub-container .project-button ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+.sub-container .project-button ul li {
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: white;
+  padding: 0.5em 1em 0.6em 1em;
+  border-radius: 50px;
+  border: #F8E16C 2px solid;
+}
+.sub-container .project-button ul li a {
+  color: black;
+}
+.sub-container .project-button ul li:hover {
+  background-color: #F8E16C;
 }
 
 /* FOLDER COLORS */
