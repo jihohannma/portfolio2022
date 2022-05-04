@@ -155,16 +155,16 @@
     }
 
     h1 {
-        // display: none;
         font-family: $font-family-sans;
         font-size: 10em;
         line-height: 1;
         position: relative;
         text-align: center;
+        justify-content: center;
         color: rgb(255, 255, 255);
-        // text-shadow: 4px 4px 6px #4b4b4b71;
         z-index: 2;
-        padding: 20vh;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
         background-color: rgba(0, 0, 0, 0.377);
     }
 }

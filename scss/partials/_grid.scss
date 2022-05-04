@@ -15,6 +15,10 @@ $gridgap: 2%;
 }
 
 @media (max-width: $breakpoint-small) {
+    .splashscreen {
+        display: none;
+    }
+
     #work {
         display: flex;
         flex-wrap: wrap;
@@ -26,6 +30,29 @@ $gridgap: 2%;
         }
         p {
             font-size: 1em;
+        }
+    }
+    .sub-hero {
+        h1 {
+            font-size: 4em;
+        }
+    }
+    .hero {
+        .container {
+            display: inline-block;
+            text-align: center;
+            .hero-left {
+                display: inline-block;
+                margin-bottom: 2em;
+                text-align: center;
+                h1 {
+                    text-align: center;
+                }
+            }
+            .hero-right {
+                display: inline-block;
+                max-width: 100%;
+            }
         }
     }
 }
@@ -130,7 +157,7 @@ $gridgap: 2%;
         font-weight: 100;
     }
     .button {
-        margin-top: 3em;
+        margin: 3em 0;
         h3 {
             display: inline-block;
             padding: 0.5em 1em;
@@ -153,8 +180,8 @@ $gridgap: 2%;
             padding: 0;
 
             li {
-                font-size: 1.2em;
-                // font-weight: 700;
+                font-size: 1em;
+                font-weight: 700;
                 text-decoration: none;
                 background-color: white;
                 padding: 0.5em 1em 0.6em 1em;

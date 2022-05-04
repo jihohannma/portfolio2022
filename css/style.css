@@ -53,7 +53,7 @@ a {
 hr {
   border: 0;
   height: 1px;
-  max-width: 1800px;
+  max-width: 2000px;
   background-color: rgba(0, 0, 0, 0.192);
 }
 
@@ -139,34 +139,34 @@ hr {
 
 .site-footer {
   display: block;
-  padding: 2em;
-  margin-bottom: 2em;
+  padding: 0.3em 0 0.5em 0;
 }
 .site-footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .site-footer img {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 100%;
+  max-width: 35%;
+}
+.site-footer .site-nav {
+  width: 100%;
 }
 .site-footer .site-nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0;
 }
 .site-footer .site-nav ul li {
   list-style: none;
-  margin: 0 1.5em;
-  font-size: 3em;
+  font-size: 1em;
   font-weight: bold;
 }
 .site-footer .site-nav ul li a {
@@ -202,7 +202,7 @@ body {
 }
 /* VIDEO */
 video {
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -593,9 +593,13 @@ video {
   line-height: 1;
   position: relative;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: white;
   z-index: 2;
-  padding: 20vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   background-color: rgba(0, 0, 0, 0.377);
 }
 
@@ -723,6 +727,10 @@ img {
 }
 
 @media (max-width: 768px) {
+  .splashscreen {
+    display: none;
+  }
+
   #work {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -738,6 +746,27 @@ img {
   }
   #work p {
     font-size: 1em;
+  }
+
+  .sub-hero h1 {
+    font-size: 4em;
+  }
+
+  .hero .container {
+    display: inline-block;
+    text-align: center;
+  }
+  .hero .container .hero-left {
+    display: inline-block;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+  .hero .container .hero-left h1 {
+    text-align: center;
+  }
+  .hero .container .hero-right {
+    display: inline-block;
+    max-width: 100%;
   }
 }
 @media (max-width: 1245px) {
@@ -839,7 +868,7 @@ img {
   font-weight: 100;
 }
 .sub-container .button {
-  margin-top: 3em;
+  margin: 3em 0;
 }
 .sub-container .button h3 {
   display: inline-block;
@@ -863,7 +892,8 @@ img {
   padding: 0;
 }
 .sub-container .project-button ul li {
-  font-size: 1.2em;
+  font-size: 1em;
+  font-weight: 700;
   text-decoration: none;
   background-color: white;
   padding: 0.5em 1em 0.6em 1em;
