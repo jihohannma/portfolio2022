@@ -38,6 +38,33 @@
         display: flex;
         justify-content: center;
         font-family: $font-family-sans;
+        .menu-container {
+            display: inline-block;
+            position: relative;
+            max-width: 1000px;
+            background-color: white;
+            margin: 5% auto 0;
+            margin-bottom: 6em;
+            padding: 0;
+            border-radius: 20px;
+            box-shadow:  inset 0 0 1px rgba(255,255,255,1);
+            box-shadow:  4px 4px 5px rgba(0, 0, 0, 0.055);
+            .nav-about {
+                background-color: $color-accent-with;
+                height:40px;
+                border-radius:20px 20px 0 0;
+            }  
+        }
+        .menu {
+            .row {
+                padding: 0 2em 0 2em;
+                align-items: center;
+                li {
+                    list-style: none;
+                }
+            }
+        }
+        
     }
 }
 .about-right {
