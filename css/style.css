@@ -317,7 +317,7 @@ video {
   bottom: 0;
   left: 0;
   inset: 0 0 0 0;
-  background: #ffba26;
+  background: rgba(2, 2, 2, 0.096);
   z-index: -1;
   -webkit-transition: -webkit-transform 0.3s ease;
   transition: -webkit-transform 0.3s ease;
@@ -349,7 +349,7 @@ video {
   bottom: 0;
   left: 0;
   inset: 70% 0 0 0;
-  background: #ffba26;
+  background: rgba(2, 2, 2, 0.096);
   z-index: -1;
   -webkit-transition: -webkit-transform 0.3s ease;
   transition: -webkit-transform 0.3s ease;
@@ -373,6 +373,158 @@ video {
 .float-on-hover:hover {
   -webkit-transform: translateY(-1em);
           transform: translateY(-1em);
+}
+
+.sub-container .button {
+  margin-top: 3em;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+}
+.sub-container .button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.089);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.sub-container .button:hover::before {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5);
+}
+.sub-container .button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid rgba(2, 2, 2, 0.205);
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+.sub-container .button:hover::after {
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+.sub-container span {
+  font-weight: 700;
+  color: black;
+}
+.sub-container .project-button {
+  margin-top: 6em;
+}
+.sub-container .project-button ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+.sub-container .project-button ul li {
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: white;
+  padding: 0.5em 1em 0.6em 1em;
+  border-radius: 50px;
+  border: #F8E16C 2px solid;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.sub-container .project-button ul li a {
+  color: black;
+}
+.sub-container .project-button ul li:hover {
+  background-color: #F8E16C;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.sub-container .project-button .holidaycard {
+  background-color: white;
+  border: #ffba24 2px solid;
+}
+.sub-container .project-button .holidaycard:hover {
+  background-color: #ffba24;
+}
+.sub-container .project-button .yours {
+  background-color: white;
+  border: #AA7DCE 2px solid;
+}
+.sub-container .project-button .yours:hover {
+  background-color: #AA7DCE;
+}
+.sub-container .project-button .annual.report {
+  background-color: white;
+  border: #df9e61 2px solid;
+}
+.sub-container .project-button .annual.report:hover {
+  background-color: #df9e61;
+}
+.sub-container .project-button .leahi {
+  background-color: white;
+  border: skyblue 2px solid;
+}
+.sub-container .project-button .leahi:hover {
+  background-color: skyblue;
+}
+.sub-container .project-button .olympic {
+  background-color: white;
+  border: #5197ff 2px solid;
+}
+.sub-container .project-button .olympic:hover {
+  background-color: #5197ff;
+}
+.sub-container .project-button .untact {
+  background-color: white;
+  border: #BBF4DA 2px solid;
+}
+.sub-container .project-button .untact:hover {
+  background-color: #BBF4DA;
+}
+.sub-container .project-button .venice {
+  background-color: white;
+  border: #FB8F67 2px solid;
+}
+.sub-container .project-button .venice:hover {
+  background-color: #FB8F67;
+}
+.sub-container .project-button .subway {
+  background-color: white;
+  border: #8dd68d 2px solid;
+}
+.sub-container .project-button .subway:hover {
+  background-color: #8dd68d;
+}
+.sub-container .project-button .jammy {
+  background-color: white;
+  border: #FFC2B4 2px solid;
+}
+.sub-container .project-button .jammy:hover {
+  background-color: #FFC2B4;
 }
 
 .splashscreen {
@@ -474,14 +626,15 @@ video {
   margin: 0;
 }
 .hero .container .hero-left .color {
-  color: #ffba26;
+  color: #b6df21;
 }
 .hero .container .hero-right {
   max-width: 50%;
 }
 
 .about-hero {
-  margin-bottom: 8em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 .about-hero .container {
   display: -webkit-box;
@@ -507,12 +660,12 @@ video {
           box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.055);
 }
 .about-hero .container .menu-container .nav-about {
-  background-color: #ffba26;
+  background-color: #b6df21;
   height: 40px;
   border-radius: 20px 20px 0 0;
 }
 .about-hero .container .menu .row {
-  padding: 0 2em 0 2em;
+  padding: 0 3em 0 2em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -537,7 +690,7 @@ video {
 }
 .about-right h2 {
   margin: 0;
-  color: #ffba26;
+  color: rgba(2, 2, 2, 0.096);
 }
 .about-right h3 {
   font-weight: 300;
@@ -865,7 +1018,7 @@ img {
   margin-left: 4%;
   color: #464646;
   padding: 0.2em 0.5em 0.3em 0.5em;
-  background-color: #dfecf1;
+  background-color: rgba(2, 2, 2, 0.096);
   border-radius: 5px;
   text-transform: uppercase;
 }
@@ -901,45 +1054,6 @@ img {
 .sub-container p {
   margin-bottom: 2em;
   font-weight: 100;
-}
-.sub-container .button {
-  margin: 3em 0;
-}
-.sub-container .button h3 {
-  display: inline-block;
-  padding: 0.5em 1em;
-  font-weight: 700;
-  color: white;
-  background-color: #ffba26;
-  text-align: center;
-}
-.sub-container .button:hover h3 {
-  background-color: lightgreen;
-}
-.sub-container .project-button ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  list-style: none;
-  padding: 0;
-}
-.sub-container .project-button ul li {
-  font-size: 1em;
-  font-weight: 700;
-  text-decoration: none;
-  background-color: white;
-  padding: 0.5em 1em 0.6em 1em;
-  border-radius: 50px;
-  border: #F8E16C 2px solid;
-}
-.sub-container .project-button ul li a {
-  color: black;
-}
-.sub-container .project-button ul li:hover {
-  background-color: #F8E16C;
 }
 
 /* FOLDER COLORS */

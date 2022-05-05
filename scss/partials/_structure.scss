@@ -22,7 +22,7 @@
             margin: 0;
         }
         .color {
-            color: $color-accent-with;
+            color: $color-link;
         }
     }
 
@@ -33,7 +33,8 @@
 
 // ABOUT
 .about-hero {
-    margin-bottom: 8em;
+    margin-top: 3em;
+    margin-bottom: 3em;
     .container {
         display: flex;
         justify-content: center;
@@ -50,14 +51,14 @@
             box-shadow:  inset 0 0 1px rgba(255,255,255,1);
             box-shadow:  4px 4px 5px rgba(0, 0, 0, 0.055);
             .nav-about {
-                background-color: $color-accent-with;
+                background-color: $color-link;
                 height:40px;
                 border-radius:20px 20px 0 0;
             }  
         }
         .menu {
             .row {
-                padding: 0 2em 0 2em;
+                padding: 0 3em 0 2em;
                 align-items: center;
                 li {
                     list-style: none;

@@ -123,7 +123,7 @@ $gridgap: 2%;
                 margin-left: 4%;
                 color: rgb(70, 70, 70);
                 padding: 0.2em 0.5em 0.3em 0.5em;
-                background-color: rgb(223, 236, 241);
+                background-color: $color-accent-with;
                 border-radius: 5px;
                 text-transform: uppercase;
             }
@@ -163,47 +163,6 @@ $gridgap: 2%;
     p {
         margin-bottom: 2em;
         font-weight: 100;
-    }
-    .button {
-        margin: 3em 0;
-        h3 {
-            display: inline-block;
-            padding: 0.5em 1em;
-            font-weight: 700;
-            color: white;
-            background-color: $color-accent-with;
-            text-align: center;          
-        }
-    }
-    .button:hover {
-        h3 {
-            background-color: lightgreen;
-        }
-    }
-    .project-button {
-        ul {
-            display: flex;
-            justify-content: space-between;
-            list-style: none;
-            padding: 0;
-
-            li {
-                font-size: 1em;
-                font-weight: 700;
-                text-decoration: none;
-                background-color: white;
-                padding: 0.5em 1em 0.6em 1em;
-                border-radius: 50px;
-                border: $color-petmily 2px solid;
-                a {
-                    color: black;
-                }
-            }
-            li:hover {
-                background-color: $color-petmily;
-            }
-            
-        }
     }
 }
 

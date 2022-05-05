@@ -60,6 +60,166 @@
     transform: translateY(-1em);
 }
 
+// BUTTON ANIMATION
+.sub-container {
+    .button {
+        margin-top: 3em;
+        line-height: 50px;
+	    height: 50px;
+	    text-align: center;
+	    width: 250px;
+	    cursor: pointer;
+        transition: all 0.5s;
+	    position: relative;
+    }
+    .button::before {
+        content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 1;
+	    background-color: rgba(0, 0, 0, 0.089);
+	    transition: all 0.3s;
+    }
+    .button:hover::before {
+        opacity: 0 ;
+	    transform: scale(0.5,0.5);
+    }
+    .button::after {
+        content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 1;
+	    opacity: 0;
+	    transition: all 0.3s;
+	    border: 1px solid rgba(2, 2, 2, 0.205);
+	    transform: scale(1.2,1.2);
+    }
+    .button:hover::after {
+        opacity: 1;
+	    transform: scale(1,1);
+    }
+    span {
+        font-weight: 700;
+        color: black;
+    }
+    
+
+    
+    .project-button {
+        margin-top: 6em;
+        
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+
+            li {
+                font-size: 1em;
+                font-weight: 700;
+                text-decoration: none;
+                background-color: white;
+                padding: 0.5em 1em 0.6em 1em;
+                border-radius: 50px;
+                border: $color-petmily 2px solid;
+                transform: scale(1);
+                transition: all 400ms ease;
+                a {
+                    color: black;
+                }
+            }
+            li:hover {
+                background-color: $color-petmily;
+                transform: scale(1.05);
+                transition: all 400ms ease;
+            }
+            
+        }
+    }
+
+    // FOR BUTTON COLORS
+    .project-button {
+        .holidaycard {
+            background-color: white;
+            border: $color-holidaycard 2px solid;
+        }
+        .holidaycard:hover {
+            background-color: $color-holidaycard;
+        }
+
+        .yours {
+            background-color: white;
+            border: $color-yours 2px solid;
+        }
+        .yours:hover {
+            background-color: $color-yours;
+        }
+
+        .annual.report {
+            background-color: white;
+            border: $color-annualreport 2px solid; 
+        }
+        .annual.report:hover {
+            background-color: $color-annualreport;
+        }
+
+        .leahi {
+            background-color: white;
+            border: $color-leahi 2px solid; 
+        }
+        .leahi:hover {
+            background-color: $color-leahi;
+        }
+
+        .olympic {
+            background-color: white;
+            border: $color-olympic 2px solid; 
+        }
+        .olympic:hover {
+            background-color: $color-olympic;
+        }
+
+        .untact {
+            background-color: white;
+            border: $color-untact 2px solid; 
+        }
+        .untact:hover {
+            background-color: $color-untact;
+        }
+
+        .venice {
+            background-color: white;
+            border: $color-venice 2px solid; 
+        }
+        .venice:hover {
+            background-color: $color-venice;
+        }
+
+        .subway {
+            background-color: white;
+            border: $color-subway 2px solid; 
+        }
+        .subway:hover {
+            background-color: $color-subway;
+        }
+
+        .jammy {
+            background-color: white;
+            border: $color-jammy 2px solid; 
+        }
+        .jammy:hover {
+            background-color: $color-jammy;
+        }
+        
+    }
+}
+
 // MAIN PAGE TRANSITION EMOJI LOADING
 .splashscreen {
     position: fixed;
