@@ -105,8 +105,13 @@
 	    transform: scale(1,1);
     }
     span {
-        font-weight: 700;
-        color: black;
+        p {
+            font-weight: 700;
+            color: black;
+            position: relative;
+            bottom: 1em;
+            z-index: 20;
+        }
     }
     
 

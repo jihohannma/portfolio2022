@@ -425,9 +425,12 @@ video {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
 }
-.sub-container span {
+.sub-container span p {
   font-weight: 700;
   color: black;
+  position: relative;
+  bottom: 1em;
+  z-index: 20;
 }
 .sub-container .project-button {
   margin-top: 6em;
