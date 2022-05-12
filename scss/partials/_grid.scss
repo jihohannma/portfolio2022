@@ -17,6 +17,13 @@ $gridgap: 2%;
         display: none;
     }
 
+    .site-header,
+    .site-footer {
+        .container {
+            margin: 0;
+        }
+    }
+
     #work {
         display: flex;
         flex-wrap: wrap;

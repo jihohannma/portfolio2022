@@ -914,6 +914,11 @@ img {
     display: none;
   }
 
+  .site-header .container,
+.site-footer .container {
+    margin: 0;
+  }
+
   #work {
     display: -webkit-box;
     display: -ms-flexbox;
