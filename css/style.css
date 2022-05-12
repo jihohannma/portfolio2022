@@ -925,10 +925,10 @@ img {
     margin-top: 0.5em;
   }
   #work h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   #work p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .about-hero .row {
@@ -953,6 +953,9 @@ img {
   }
   .hero .container .hero-left h1 {
     text-align: center;
+  }
+  .hero .container .hero-left h2 {
+    font-size: 1.5em;
   }
   .hero .container .hero-right {
     display: inline-block;
