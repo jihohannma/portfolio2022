@@ -255,8 +255,8 @@ video {
   display: grid;
   -ms-grid-columns: 490px 1em 490px;
   grid-template-columns: 490px 490px;
-  -ms-grid-rows: 700px 1em 375px 1em auto;
-  grid-template-rows: 700px 375px auto;
+  -ms-grid-rows: 707px 1em 375px 1em auto;
+  grid-template-rows: 707px 375px auto;
   grid-gap: 1em;
 }
 .grid-container > *:nth-child(1) {
@@ -288,7 +288,7 @@ video {
 }
 
 .grid-item4 {
-  padding-top: 335px;
+  padding-top: 340px;
 }
 
 .grid-container img {
@@ -934,6 +934,25 @@ img {
   }
   #work p {
     font-size: 0.8em;
+  }
+
+  #sub-work .grid-container {
+    display: inline-block;
+  }
+  #sub-work .grid-container .grid-item4 {
+    padding: 0;
+  }
+  #sub-work .grid-container :nth-child(1) {
+    margin-bottom: 0.5em;
+  }
+  #sub-work .grid-container :nth-child(2) {
+    margin-bottom: 0.5em;
+  }
+  #sub-work .grid-container :nth-child(3) {
+    margin-bottom: 0.5em;
+  }
+  #sub-work .grid-container :nth-child(4) {
+    margin-bottom: 0.5em;
   }
 
   .about-hero .row {
