@@ -29,7 +29,8 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 1em;
-  max-width: 1850px;
+  max-width: 1900px;
+  margin: 0 1.5em;
 }
 .site-header .site-logo {
   margin-top: 1.2em;
@@ -143,7 +144,8 @@ hr {
   padding: 0.3em 0 0.5em 0;
 }
 .site-footer .container {
-  max-width: 1850px;
+  max-width: 19000px;
+  margin: 0 1.5em;
 }
 .site-footer img {
   max-width: 4.5em;
@@ -923,7 +925,7 @@ img {
     margin-top: 0.5em;
   }
   #work h2 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   #work p {
     font-size: 1em;
