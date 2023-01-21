@@ -223,6 +223,21 @@
             background-color: $color-jammy;
         }
         
+        .collegeposter {
+            background-color: white;
+            border: $color-collegeposter 2px solid; 
+        }
+        .collegeposter:hover {
+            background-color: $color-collegeposter;
+        }
+
+        .mobilegame {
+            background-color: white;
+            border: $color-mobilegame 2px solid; 
+        }
+        .mobilegame:hover {
+            background-color: $color-mobilegame;
+        }
     }
 }
 

@@ -182,6 +182,22 @@
         // padding: 30vh 1em;
     }
 
+    .collegeposter {
+        background-image: url(../img/jammy/hero.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        // padding: 30vh 1em;
+    }
+
+    .mobilegame {
+        background-image: url(../img/jammy/hero.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        // padding: 30vh 1em;
+    }
+
     h1 {
         font-family: $font-family-sans;
         font-size: 10em;
@@ -277,5 +293,31 @@
         margin:0;
         color: transparent;
         font-size: 0.5em;
+    }
+
+    .collegeposter-back {
+        background-color: $color-collegeposter;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    .mobilegame-back {
+        background-color: $color-mobilegame;
+        width: 100%;
+        margin:0;
+        color: transparent;
+        font-size: 0.5em;
+    }
+
+    // YOURS Mobile Design Video
+    .mobilegamevideo {
+        background-color: black;
+        display: inline-block;
+        text-align: center;
+        video {
+            max-width: 50%;
+        }
     }
 }

@@ -139,6 +139,18 @@ hr {
   border-radius: 20px 20px 0 0;
 }
 
+.nav-collegeposter {
+  background-color: #343c81;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+.nav-mobilegame {
+  background-color: #c9b2e9;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
 .site-footer {
   display: block;
   padding: 0.3em 0 0.5em 0;
@@ -531,6 +543,20 @@ video {
 .sub-container .project-button .jammy:hover {
   background-color: #FFC2B4;
 }
+.sub-container .project-button .collegeposter {
+  background-color: white;
+  border: #343c81 2px solid;
+}
+.sub-container .project-button .collegeposter:hover {
+  background-color: #343c81;
+}
+.sub-container .project-button .mobilegame {
+  background-color: white;
+  border: #c9b2e9 2px solid;
+}
+.sub-container .project-button .mobilegame:hover {
+  background-color: #c9b2e9;
+}
 
 .splashscreen {
   position: fixed;
@@ -773,6 +799,18 @@ video {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.sub-hero .collegeposter {
+  background-image: url(../img/jammy/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sub-hero .mobilegame {
+  background-image: url(../img/jammy/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .sub-hero h1 {
   font-family: "arboria", Helvetica, sans-serif;
   font-size: 10em;
@@ -858,6 +896,28 @@ video {
   margin: 0;
   color: transparent;
   font-size: 0.5em;
+}
+#sub-work .collegeposter-back {
+  background-color: #343c81;
+  width: 100%;
+  margin: 0;
+  color: transparent;
+  font-size: 0.5em;
+}
+#sub-work .mobilegame-back {
+  background-color: #c9b2e9;
+  width: 100%;
+  margin: 0;
+  color: transparent;
+  font-size: 0.5em;
+}
+#sub-work .mobilegamevideo {
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+}
+#sub-work .mobilegamevideo video {
+  max-width: 50%;
 }
 
 /* RESPONSIVE IMAGES */
@@ -1137,6 +1197,16 @@ img {
 .folder-top.tenth,
 .folder-square.tenth {
   background-color: #e8dff5;
+}
+
+.folder-top.eleventh,
+.folder-square.eleventh {
+  background-color: #343c81;
+}
+
+.folder-top.twelveth,
+.folder-square.twelveth {
+  background-color: #c9b2e9;
 }
 
 h1 {
