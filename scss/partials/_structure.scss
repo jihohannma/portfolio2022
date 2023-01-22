@@ -175,7 +175,7 @@
     }
 
     .untact {
-        background-image: url(../img/untact/hero.jpg);
+        background-image: url(../img/untact/hero1.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -183,7 +183,7 @@
     }
 
     .collegeposter {
-        background-image: url(../img/jammy/hero.jpg);
+        background-image: url(../img/collegeposter/hero.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -191,7 +191,7 @@
     }
 
     .mobilegame {
-        background-image: url(../img/jammy/hero.jpg);
+        background-image: url(../../img/mobilegame/hero.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -317,7 +317,7 @@
         display: inline-block;
         text-align: center;
         video {
-            max-width: 50%;
+            max-width: 30%;
         }
     }
 }
